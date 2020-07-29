@@ -1,3 +1,7 @@
+<script>
+  console.log('contact page');
+</script>
+
 <svelte:head>
 	<title>Contact</title>
 </svelte:head>

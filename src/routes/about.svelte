@@ -1,3 +1,7 @@
+<script>
+  console.log('about page');
+</script>
+
 <svelte:head>
 	<title>About</title>
 </svelte:head>
