@@ -1,12 +1,4 @@
 <script>
-  import { onMount } from 'svelte';
-
-  console.log('index page');
-
-  onMount(() => {
-    // safe for browser-only code - e.g. fetch
-    console.log('only ever runs in the browser');
-  });
 
 </script>
 
