@@ -3,9 +3,17 @@
 		const { id } = page.params;
 
     const res = await this.fetch(`jobs/${id}.json`);
-    const job = await res.json();
 
-    return { job };
+    if (res.status === 200) {
+      const job = await res.json();
+		  return { job };
+    }
+
+    if (res.status === 404) {
+      const { error } = await res.json();
+      this.error(404, error);
+    }
+
 	}
 </script>
 
