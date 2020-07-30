@@ -30,6 +30,9 @@
   li a:hover {
     background: #fbfbfb;
   }
+  div {
+    text-align: center;
+  }
 </style>
 
 <h2>All Current Jobs</h2>
@@ -39,3 +42,7 @@
 		<li><a href="/">{job.title}</a></li>
 	{/each}
 </ul>
+
+<div>
+  <a class="btn" href="jobs/create">Add a new Job</a>
+</div>
