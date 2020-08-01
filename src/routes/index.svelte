@@ -12,18 +12,18 @@
 	img {
 		width: 200px;
 		margin: 0 auto;
-    display: block;
+    		display: block;
 	}
 	p {
 		margin: 1em auto;
-  }
-  a {
-    margin-top: 40px;
-  }
-  div {
-    margin-top: 60px;
-    text-align: center;
-  }
+  	}
+	a {
+		margin-top: 40px;
+	}
+	div {
+		margin-top: 60px;
+		text-align: center;
+	}
 
 	@media (min-width: 480px) {
 		h1 {
